@@ -1,0 +1,130 @@
+header{
+  background:#0b0b0b;
+  color:white;
+  padding:20px;
+  display:flex;
+  align-items:center;
+  gap:14px;
+  justify-content:center;
+  flex-wrap:wrap;
+  text-align:center;
+}
+
+.logo{
+  display:flex;
+  gap:10px;
+  align-items:center;
+}
+
+/* Inline SVG logo circle + text */
+.logo svg{ width:56px; height:56px; display:block; }
+.brand {
+  font-weight:700;
+  font-size:20px;
+  letter-spacing:-0.4px;
+}
+.tagline{
+  color:#cfcfcf;
+  font-size:13px;
+  margin-top:3px;
+}
+
+main{
+  max-width:var(--maxw);
+  margin:22px auto;
+  padding:0 16px 40px;
+}
+
+.section-title{
+  display:flex;
+  align-items:center;
+  gap:10px;
+  margin-bottom:12px;
+  font-size:18px;
+}
+
+.productos{
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+  gap:18px;
+}
+
+.producto{
+  background:var(--card);
+  border-radius:var(--radius);
+  padding:12px;
+  box-shadow:var(--shadow);
+  display:flex;
+  flex-direction:column;
+  height:100%;
+}
+
+.producto img{
+  width:100%;
+  height:160px;
+  object-fit:cover;
+  border-radius:8px;
+  display:block;
+}
+
+.producto h3{
+  margin:10px 0 6px;
+  font-size:16px;
+}
+
+.precio{
+  font-weight:800;
+  color:#111;
+}
+
+.muted{
+  color:var(--muted);
+  font-size:13px;
+}
+
+.actions{
+  margin-top:auto;
+  display:flex;
+  gap:8px;
+  align-items:center;
+}
+
+.btn{
+  background:var(--accent);
+  color:#fff;
+  text-decoration:none;
+  padding:9px 12px;
+  border-radius:8px;
+  font-weight:700;
+  display:inline-block;
+  transition:transform .08s ease, background .12s ease;
+  box-shadow:0 4px 10px rgba(37,211,102,0.12);
+}
+
+.btn:hover{ background:var(--accent-600); transform:translateY(-2px); }
+.btn.secondary{
+  background:#efefef;
+  color:#111;
+  font-weight:600;
+  box-shadow:none;
+}
+
+.info{
+  background:var(--card);
+  border-radius:var(--radius);
+  padding:16px;
+  box-shadow:var(--shadow);
+  margin-top:18px;
+}
+
+footer{
+  text-align:center;
+  padding:14px;
+  color:#a8a8a8;
+  font-size:14px;
+}
+
+@media (max-width:480px){
+  .producto img{ height:140px; }
+  header{ padding:14px }
+}

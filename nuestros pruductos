@@ -1,0 +1,91 @@
+<div class="productos">
+
+  <article class="producto" aria-labelledby="p-llavero-p">
+    <img src="https://images.unsplash.com/photo-1514995669114-0f66b1d8b6b7?q=80&w=1200&auto=format&fit=crop&crop=faces&sat=-20" alt="Llavero pequeño 3D" loading="lazy">
+    <h3 id="p-llavero-p">Llavero pequeño</h3>
+    <p class="precio">5.000 COP</p>
+    <p class="muted">Perfecto como recuerdo o detalle.</p>
+    <div class="actions">
+      <a class="btn" href="#" data-wa-text="Hola, quiero un llavero pequeño (5.000 COP)">Comprar</a>
+      <a class="btn secondary" href="#" onclick="alert('Guardado en favoritos')">Favorito</a>
+    </div>
+  </article>
+
+  <article class="producto" aria-labelledby="p-llavero-g">
+    <img src="https://images.unsplash.com/photo-1581320544110-0bb6a8ad3a67?q=80&w=1200&auto=format&fit=crop&crop=faces&sat=-10" alt="Llavero grande 3D" loading="lazy">
+    <h3 id="p-llavero-g">Llavero grande</h3>
+    <p class="precio">10.000 COP</p>
+    <p class="muted">Mayor tamaño, más detalle y presencia.</p>
+    <div class="actions">
+      <a class="btn" href="#" data-wa-text="Hola, quiero un llavero grande (10.000 COP)">Comprar</a>
+      <a class="btn secondary" href="#" onclick="alert('Más información enviada')">Info</a>
+    </div>
+  </article>
+
+  <article class="producto" aria-labelledby="p-soporte">
+    <img src="https://images.unsplash.com/photo-1589389486447-6d4aa4b9a5d2?q=80&w=1200&auto=format&fit=crop&crop=faces&sat=-15" alt="Soporte para celular impreso en 3D" loading="lazy">
+    <h3 id="p-soporte">Soporte para celulares</h3>
+    <p class="precio">Desde 10.000 COP</p>
+    <p class="muted">Modelos plegables y personalizables.</p>
+    <div class="actions">
+      <a class="btn" href="#" data-wa-text="Hola, quiero un soporte para celular (desde 10.000 COP)">Cotizar</a>
+      <a class="btn secondary" href="#" onclick="alert('Vía WhatsApp')">Ver variantes</a>
+    </div>
+  </article>
+
+  <article class="producto" aria-labelledby="p-figura-ch">
+    <img src="https://images.unsplash.com/photo-1603791440384-56cd371ee9a7?q=80&w=1200&auto=format&fit=crop&crop=faces&sat=-5" alt="Figura personalizada chiquita 3D" loading="lazy">
+    <h3 id="p-figura-ch">Figuras personalizadas — chiquitas</h3>
+    <p class="precio">10.000 COP</p>
+    <p class="muted">Decorativas y coleccionables.</p>
+    <div class="actions">
+      <a class="btn" href="#" data-wa-text="Hola, quiero una figura chiquita (10.000 COP)">Cotizar</a>
+      <a class="btn secondary" href="#" onclick="alert('Enviar diseño')">Enviar diseño</a>
+    </div>
+  </article>
+
+  <article class="producto" aria-labelledby="p-figura-md">
+    <img src="https://images.unsplash.com/photo-1596462502272-6d7aaf8a6efa?q=80&w=1200&auto=format&fit=crop&crop=faces&sat=-10" alt="Figura personalizada mediana 3D" loading="lazy">
+    <h3 id="p-figura-md">Figuras personalizadas — medianas</h3>
+    <p class="precio">15.000 COP</p>
+    <p class="muted">Más detalle y acabado en color.</p>
+    <div class="actions">
+      <a class="btn" href="#" data-wa-text="Hola, quiero una figura mediana (15.000 COP)">Cotizar</a>
+      <a class="btn secondary" href="#" onclick="alert('Solicitar muestra')">Muestra</a>
+    </div>
+  </article>
+
+  <article class="producto" aria-labelledby="p-figura-gt">
+    <img src="https://images.unsplash.com/photo-1564869730886-fb6f7d7b9a53?q=80&w=1200&auto=format&fit=crop&crop=faces&sat=-15" alt="Figura personalizada grande 3D" loading="lazy">
+    <h3 id="p-figura-gt">Figuras personalizadas — grandes</h3>
+    <p class="precio">Desde 20.000 COP</p>
+    <p class="muted">Piezas para exhibición y regalos especiales.</p>
+    <div class="actions">
+      <a class="btn" href="#" data-wa-text="Hola, quiero una figura grande (desde 20.000 COP)">Cotizar</a>
+      <a class="btn secondary" href="#" onclick="alert('Cotización personalizada')">Cotización</a>
+    </div>
+  </article>
+
+  <article class="producto" aria-labelledby="p-piezas">
+    <img src="https://images.unsplash.com/photo-1616628183713-3a4b3c8f1b8e?q=80&w=1200&auto=format&fit=crop&crop=faces&sat=-8" alt="Piezas personalizadas impresas en 3D" loading="lazy">
+    <h3 id="p-piezas">Piezas personalizadas</h3>
+    <p class="precio">Desde 20.000 COP</p>
+    <p class="muted">Repuestos y piezas funcionales a medida.</p>
+    <div class="actions">
+      <a class="btn" href="#" data-wa-text="Hola, necesito una pieza personalizada (desde 20.000 COP)">Solicitar</a>
+      <a class="btn secondary" href="#" onclick="alert('Enviar medidas')">Enviar medidas</a>
+    </div>
+  </article>
+
+  <article class="producto" aria-labelledby="p-utiles">
+    <img src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?q=80&w=1200&auto=format&fit=crop&crop=faces&sat=-12" alt="Objetos útiles para el hogar impresos en 3D" loading="lazy">
+    <h3 id="p-utiles">Cosas útiles para el hogar</h3>
+    <p class="precio">10.000 COP</p>
+    <p class="muted">Organizadores, ganchos, soportes y más.</p>
+    <div class="actions">
+      <a class="btn" href="#" data-wa-text="Hola, quiero objetos útiles para el hogar (10.000 COP)">Ver</a>
+      <a class="btn secondary" href="#" onclick="alert('Detalles del producto')">Detalles</a>
+    </div>
+  </article>
+
+</div>
